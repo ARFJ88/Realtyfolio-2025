@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtyfolio: Investment Opportunity</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Slightly darker light grey for background */
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+            padding: 2.5rem; /* Increased padding */
+            overflow: hidden;
+            position: relative;
+        }
+        .section-title {
+            color: #2c3e50; /* Darker, more professional grey for titles */
+            border-bottom: 3px solid #007bff; /* Brighter blue underline */
+            padding-bottom: 0.75rem; /* Increased padding */
+            margin-bottom: 2rem; /* Increased margin */
+            font-size: 1.875rem; /* Larger title font */
+        }
+        .icon-box {
+            background-color: #e6f2ff; /* Lighter blue for icon boxes */
+            border-radius: 0.75rem;
+            padding: 1.25rem; /* Increased padding */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Added subtle shadow */
+        }
+        .icon-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        .capital-card {
+            background-color: #d9edf7; /* A slightly richer light blue for capital cards */
+            border-radius: 0.75rem;
+            padding: 1.75rem; /* Increased padding */
+            margin-bottom: 1rem;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08); /* More prominent shadow */
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .capital-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        }
+        .differentiator-item {
+            background-color: #f7fcff; /* Very light blue for differentiators */
+            border-left: 5px solid #007bff; /* Brighter blue border */
+            padding: 1.25rem; /* Increased padding */
+            border-radius: 0.5rem;
+            margin-bottom: 1rem; /* Increased margin */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03); /* Subtle shadow */
+        }
+        /* Styling for property type images */
+        .property-image {
+            width: 100%;
+            height: 140px; /* Increased height for better visual impact */
+            object-fit: cover;
+            border-radius: 0.75rem; /* More rounded corners */
+            margin-bottom: 1rem; /* Increased margin */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Image shadow */
+        }
+        .contact-section {
+            background-color: #007bff; /* Primary blue for contact section */
+            color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        .contact-section a {
+            color: #e6f2ff; /* Lighter blue for links in contact section */
+            text-decoration: underline;
+        }
+        .contact-section a:hover {
+            color: #ffffff;
+        }
+        .geo-image {
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            margin-bottom: 0.75rem;
+            border-radius: 0.5rem; /* Rounded corners for geo images */
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center mb-10">
+            <!-- Realtyfolio Logo -->
+            <img src="https://www.realtyfolio.com/images/RealtyFolioLogo.png" alt="Realtyfolio Logo" class="mx-auto mb-6 rounded-lg max-w-[250px]" onerror="this.onerror=null;this.src='https://placehold.co/250x75/cccccc/333333?text=Realtyfolio+Logo+Unavailable';" />
+
+            <p class="text-2xl text-blue-700 font-semibold">Your Strategic Partner in Real Estate Investment Growth</p>
+            <p class="text-gray-700 mt-5 leading-relaxed text-lg">
+                At Realtyfolio, we specialize in fueling compelling real estate opportunities with flexible and strategic capital. We're actively seeking new deals for preferred equity, LP equity, and GP equity in high-growth markets, offering a competitive edge to sponsors and developers.
+            </p>
+        </header>
+
+        <!-- Investment Focus Section -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold section-title">Our Investment Focus</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div class="icon-box">
+                    <!-- Luxury Condos Image -->
+                    <img src="https://www.miamiluxuryhomes.com/wp-content/uploads/2015/08/One-Thousand-Museum-Residence-Flow-Through.jpg" alt="Luxury Condos" class="property-image" onerror="this.onerror=null;this.src='https://placehold.co/200x140/a78bfa/ffffff?text=Luxury+Condos+Image+Unavailable';" />
+                    <p class="font-semibold text-xl text-gray-800">Luxury Condos</p>
+                </div>
+                <div class="icon-box">
+                    <!-- Multi-family Image -->
+                    <img src="https://firststonedevelopment.com/wp-content/uploads/2022/12/2-Street-Level.jpg" alt="Multi-family" class="property-image" onerror="this.onerror=null;this.src='https://placehold.co/200x140/60a5fa/ffffff?text=Multi-family+Image+Unavailable';" />
+                    <p class="font-semibold text-xl text-gray-800">Multi-family</p>
+                </div>
+                <div class="icon-box">
+                    <!-- Hotels Image -->
+                    <img src="https://www.thinkaec.com/wp-content/uploads/2025/03/evolution-of-ski-resorts-1024x576.jpg" alt="Hotels" class="property-image" onerror="this.onerror=null;this.src='https://placehold.co/200x140/3b82f6/ffffff?text=Hotels+Image+Unavailable';" />
+                    <p class="font-semibold text-xl text-gray-800">Hotels</p>
+                </div>
+            </div>
+            <p class="text-gray-700 text-center text-xl font-medium mb-5">Focusing on **Value-Add & New Construction**</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div class="icon-box">
+                    <!-- Top-Tier U.S. Cities Image -->
+                    <img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Silhouettes-PNG/New_York_City_Skyline_Silhouette_PNG_Clip_Art.png?m=1629833191" alt="Top-Tier U.S. Cities" class="geo-image" onerror="this.onerror=null;this.src='https://placehold.co/100x100/cccccc/333333?text=City+Icon+Unavailable';" />
+                    <p class="font-semibold text-xl text-gray-800">Top-Tier U.S. Cities</p>
+                </div>
+                <div class="icon-box">
+                    <!-- Red States Image -->
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRLBT-NfEGs209a-mkWuWTchnCQ2bHt3rrzgIIUJ7yPeJ-Cyen" alt="Ideally in Red States" class="geo-image" onerror="this.onerror=null;this.src='https://placehold.co/100x100/cccccc/333333?text=Red+States+Image+Unavailable';" />
+                    <p class="font-semibold text-xl text-gray-800">Ideally in Red States</p>
+                </div>
+            </div>
+            <p class="text-gray-700 text-center text-xl font-medium">Our Investment Check Size:</p>
+            <ul class="list-disc list-inside text-gray-700 text-center text-xl font-bold mt-3">
+                <li>First Deal: <span class="text-blue-700">$500,000 - $2,000,000</span></li>
+                <li>Second Deal: <span class="text-blue-700">Up to $5,000,000</span></li>
+                <li>Third Deal & Beyond: <span class="text-blue-700">Up to $10,000,000</span></li>
+            </ul>
+        </section>
+
+        <!-- Capital Solutions Section -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold section-title">Our Capital Solutions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="capital-card">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-3">Preferred Equity</h3>
+                    <p class="text-gray-700 text-lg">
+                        Our most ideal structure. Offers **current pay** for stable, predictable returns. Bridges financing gaps and optimizes your capital stack, allowing sponsors to retain control and maximize upside.
+                    </p>
+                </div>
+                <div class="capital-card">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-3">LP Equity</h3>
+                    <p class="text-gray-700 text-lg">
+                        For sponsors seeking significant capital infusion from passive investors who trust your expertise and vision. We can provide the bulk of the equity or come in alongside other capital, allowing you to focus on execution.
+                    </p>
+                </div>
+                <div class="capital-card">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-3">GP Equity</h3>
+                    <p class="text-gray-700 text-lg">
+                        We partner with experienced sponsors, bringing our capital and collaborative approach to align interests and drive success on ground-up developments and complex value-add projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What Sets Us Apart Section -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold section-title">What Sets Realtyfolio Apart?</h2>
+            <div class="grid grid-cols-1 gap-5">
+                <div class="differentiator-item">
+                    <p class="font-semibold text-xl text-gray-800">Agile & Decisive Capital:</p>
+                    <p class="text-gray-700 text-lg">Streamlined due diligence and quick responses ensure efficient closings.</p>
+                </div>
+                <div class="differentiator-item">
+                    <p class="font-semibold text-xl text-gray-800">Sponsor-Friendly Structures:</p>
+                    <p class="text-gray-700 text-lg">Win-win partnerships with flexible terms and emphasis on **current pay** for preferred equity.</p>
+                </div>
+                <div class="differentiator-item">
+                    <p class="font-semibold text-xl text-gray-800">Deep Market Expertise:</p>
+                    <p class="text-gray-700 text-lg">Extensive knowledge of top-tier cities and red-state markets for strategic value.</p>
+                </div>
+                <div class="differentiator-item">
+                    <p class="font-semibold text-xl text-gray-800">Collaborative Partnership:</p>
+                    <p class="text-gray-700 text-lg">More than capital providers; we are strategic partners offering support and insights.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action & Contact -->
+        <section class="text-center mt-12 p-8 contact-section">
+            <h2 class="text-4xl font-bold mb-5">Have a deal? Let's talk.</h2>
+            <p class="text-2xl mb-8">Connect with us to explore how Realtyfolio can help bring your next project to life.</p>
+            <div class="flex flex-col items-center space-y-4">
+                <p class="text-xl font-semibold">Ace Jonas</p>
+                <p class="text-xl">Partner, Head of Real Estate</p>
+                <p class="text-xl">Email: <a href="mailto:ace@realtyfolio.com">ace@realtyfolio.com</a></p>
+                <p class="text-xl">Website: <a href="https://www.realtyfolio.com" target="_blank">www.realtyfolio.com</a></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
